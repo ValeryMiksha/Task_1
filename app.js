@@ -1,5 +1,4 @@
 const express = require("express")
-/*const PORT = 8080;*/
 const app = express();
 const db = require("./config/database")
 const table_1_model = require("./models/model")
@@ -74,5 +73,3 @@ app.get("/", function (_, response) {
         })
     })
 })
-/*
-app.listen(PORT)*/
